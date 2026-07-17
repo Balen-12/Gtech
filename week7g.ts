@@ -64,3 +64,10 @@ Resotck(): void {
 }
 
 }
+
+
+const store = new pharmacy();
+store.add(new Medicine("dogalaz", 2000, 15, true));
+store.add(new Medicine("Paracetamol", 1000, 20, false));
+store.add(new Medicine("Ibuprofen", 1500, 8, true));
+store.Resotck();
